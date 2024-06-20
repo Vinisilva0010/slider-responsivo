@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.slider {
+    position: relative;
+    width: 80%;
+    max-width: 1200px;
+    height: 60%;
+    max-height: 700px;
+    margin: 0 auto;
+}
+
+.slider img {
+    position: absolute;
+    left: 45%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 95%;
+}
+
+.bullets-nav {
+    position: absolute;
+    left: 40%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+
+.bullets-nav span {
+    width: 16px;
+    height: 16px;
+    float: left;
+    border-radius: 8px;
+    background-color: #ccc;
+    cursor: pointer;
+    margin: 0 20px;
+}
